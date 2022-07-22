@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>QReate</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="url" name="url" id="weburl" placeholder="Your Link Here">
+        <input type="text" name="file_name" id="file_name" placeholder="name file">
+        <button type="submit">QReate from link</button>
+    </form>
+    <img src="{{qr_code}}" alt="qr code">
+</body>
+</html>
