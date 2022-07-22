@@ -1,0 +1,1 @@
+Note: I've implemented the qr code generation, basic template ,views and urls, to serve as a starting point for us to edit and build on. the qr code is generated but i haven't gotten it to show on the template or save in db. please look into that
